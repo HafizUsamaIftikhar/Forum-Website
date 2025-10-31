@@ -1,0 +1,80 @@
+/* 🌙 Modern Flat Forum Style */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+  color: #333;
+}
+
+/* 🌐 Navbar */
+nav {
+  background: #1f1f1f;
+  display: flex;
+  justify-content: flex-start; /* 👈 all items to the left */
+  align-items: center;
+  padding: 14px 40px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 25px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4dd0e1;
+}
+
+/* 🧱 Main Form Container */
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #222;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #4dd0e1;
+  box-shadow: 0 0 6px rgba(77,208,225,0.4);
+}
+
+button {
+  background: #4dd0e1;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0097a7;
+}
+
+p {
+  margin-top: 15px;
+}
